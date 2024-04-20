@@ -1,0 +1,201 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo {
+    padding-left: 50px;
+    padding-top: 0px;
+    font-family: cursive;
+    font-size: 35px;
+    color: #215797;
+}
+
+.header {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    display: inline;
+    margin-right: 18px;
+    text-align: right;
+}
+
+.links a {
+    color: #008080;
+    text-decoration: none;
+    padding: 10px 18px;
+    font-family: Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.links a:hover {
+    /* Underline on hover */
+    color: black;
+    /* Change text color on hover */
+    background-color: #e7eafb;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    /* Add this line */
+}
+
+.links {
+    margin-left: auto;
+    /* Pushes the links to the right */
+
+}
+.tagline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #ACBBD2;
+}
+
+.tagline p {
+    color: black;
+    font-size: 19px;
+    padding: 18px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.tagline h1 {
+    font-size: 42px;
+}
+
+.podspot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.podspot h2 {
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 40px;
+    color: #0f4100;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content p {
+    margin-right: 20px;
+    max-width: 70%;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-justify: newspaper;
+}
+
+.content video {
+    width: 60%;
+    height: auto;
+    margin-top: 45px;
+}
+.Founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Founder h2 {
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 40px;
+    color: #0f4100;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content img {
+    max-width: 50%; /* Adjust width of the image */
+    margin-right: 20px; /* Add space between image and paragraph */
+}
+
+.content p {
+    max-width: 50%; /* Adjust width of the paragraph */
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+.platformlogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.platformlogo img {
+    margin: 0 10px; /* Adjust the margin as needed */
+    border-radius: 50%; /* Makes the logos round */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    height: 70px;
+    width: 70px;
+}
+.platformlogo img:hover{
+    transform: scale(1.2);
+}
+/* Custom scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #eff3ff;
+    /* Background color of the track */
+}
+
+/* Custom scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #738DC0;
+    /* Color of the thumb */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+/* Custom scrollbar button (arrows) */
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* Adjust scrollbar dimensions */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+    height: 10px;
+    /* Height of the scrollbar */
+}
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 1000;
+}
+#scroll-to-top:hover {
+    background-color: #0056b3;
+}

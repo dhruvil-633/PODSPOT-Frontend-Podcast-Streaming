@@ -1,0 +1,111 @@
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #d1dcfa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #738dc0;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: calc(100% - 24px);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+.btn {
+    background-color: #0f4100;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #8792b0;
+    color: black;
+}
+/* Custom scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #eff3ff;
+    /* Background color of the track */
+}
+
+/* Custom scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #738DC0;
+    /* Color of the thumb */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+/* Custom scrollbar button (arrows) */
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* Adjust scrollbar dimensions */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+    height: 10px;
+    /* Height of the scrollbar */
+}
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 1000;
+}
+#scroll-to-top:hover {
+    background-color: #0056b3;
+}

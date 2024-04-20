@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('path/to/font/pacifico.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('path/to/font/pacifico.woff') format('woff');
+    /* Older Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+
+    /* Adjust layout for smaller screens */
+    .body {
+        flex-direction: column;
+        /* Stack elements vertically */
+    }
+
+    video {
+        width: 100%;
+        /* Make the video fill the width of its container */
+        height: auto;
+        /* Preserve aspect ratio */
+    }
+}
+
+@media (max-width: 576px) {
+    /* Further adjustments for even smaller screens */
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+/* Round scrollbar track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.logo {
+    padding-left: 50px;
+    padding-top: 0px;
+    font-family: cursive;
+    font-size: 35px;
+    color: #215797;
+}
+
+.header {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    display: inline;
+    margin-right: 18px;
+    text-align: right;
+}
+
+.links a {
+    color: #008080;
+    text-decoration: none;
+    padding: 10px 18px;
+    font-family: Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.links a:hover {
+    /* Underline on hover */
+    color: black;
+    /* Change text color on hover */
+    background-color: #e7eafb;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    /* Add this line */
+}
+
+.links {
+    margin-left: auto;
+    /* Pushes the links to the right */
+
+}
+
+.body h1 {
+    margin-right: 20px;
+    padding-top: 45px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: left;
+    font-family: cursive;
+    font-size: 70px;
+    color: #0f4100;
+}
+
+.platformlogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.platformlogo img {
+    margin: 0 10px;
+    /* Adjust the margin as needed */
+    border-radius: 50%;
+    /* Makes the logos round */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* Adds a subtle shadow */
+    height: 70px;
+    width: 70px;
+}
+
+.platformlogo img:hover {
+    transform: scale(1.2);
+}
+
+.about {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #E7EBF4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #006666;
+    /* Darker teal */
+}
+
+.about img {
+    border-radius: 50%;
+    margin-top: 20px;
+    /* Added margin to separate image from heading */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about img:hover {
+    transform: scale(1.1);
+}
+
+.about-content {
+    margin-top: 20px;
+    /* Added margin to separate details from image */
+}
+
+.about h2 {
+    color: #004080;
+    /* Darker blue */
+}
+
+.about p {
+    line-height: 1.6;
+    font-family: Verdana, sans-serif;
+}
+
+.disclaimer {
+    max-width: 100%;
+    background-color: #f0f0f0;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 0px;
+    text-align: center;
+}
+
+/* Custom scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #eff3ff;
+    /* Background color of the track */
+}
+
+/* Custom scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #738DC0;
+    /* Color of the thumb */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+/* Custom scrollbar button (arrows) */
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* Adjust scrollbar dimensions */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+    height: 10px;
+    /* Height of the scrollbar */
+}
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 1000;
+}
+#scroll-to-top:hover {
+    background-color: #0056b3;
+}
