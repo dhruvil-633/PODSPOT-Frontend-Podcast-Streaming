@@ -1,5 +1,7 @@
 # PODSPOT
 
+[Visit the Website(Laptop support only)](https://dhruvil-633.github.io/PODSPOT-Frontend-Podcast-Streaming/)
+<br>
 Welcome to Podspot! Your one-stop destination for discovering and enjoying podcasts.
 ![image](https://github.com/dhruvil-633/PODSPOT/assets/155836829/f3c92672-5d9d-4980-95c8-7f0177e892c2)
 
